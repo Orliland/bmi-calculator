@@ -1,0 +1,39 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.card {
+  padding: 2.4rem;
+  border-radius: 1.6rem;
+
+  background-color: var(--pure-white);
+  box-shadow: 1.6rem 3.2rem 5.6rem var(--bx-shadow);
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.card__icon {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.card__title {
+  font: var(--heading-s);
+
+  color: var(--gunmetal);
+}
+
+.card__body {
+  margin: 0px;
+
+  font: var(--body-m);
+
+  color: var(--dark-electric-blue);
+}
