@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype-variations");
+  src: url("../assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype") tech("variations");
+  font-weight: 100 900;
+}
+
+:root {
+  font-family: "Inter", sans-serif;
+  font-size: 62.5%;
+
+  /* Colors */
+  --pure-white: hsl(0, 0%, 100%);
+  --gunmetal: hsl(215, 31%, 21%);
+  --dark-electric-blue: hsl(215, 17%, 45%);
+
+  --bx-shadow: hsla(211, 40%, 69%, 25%);
+
+  /* Fonts */
+  --heading-s: 600 2rem/110% "Inter", sans-serif;
+  --body-m: 400 1.6rem/150% "Inter", sans-serif;
+}
