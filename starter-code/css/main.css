@@ -4,6 +4,27 @@
   gap: 1.6rem;
 }
 
+.cards__header {
+  margin: 0px;
+  margin-bottom: 4rem;
+}
+
+.cards__title {
+  margin: 0px 0px 3.2rem;
+
+  font: var(--heading-mx);
+  text-align: center;
+
+  color: var(--gunmetal);
+}
+
+.cards__description {
+  font: var(--body-m);
+  text-align: center;
+
+  color: var(--dark-electric-blue);
+}
+
 .card {
   padding: 2.4rem;
   border-radius: 1.6rem;

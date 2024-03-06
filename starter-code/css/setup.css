@@ -19,6 +19,7 @@
   --bx-shadow: hsla(211, 40%, 69%, 25%);
 
   /* Fonts */
+  --heading-mx: 600 3.2rem/110% "Inter", sans-serif;
   --heading-s: 600 2rem/110% "Inter", sans-serif;
   --body-m: 400 1.6rem/150% "Inter", sans-serif;
 }
