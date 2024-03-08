@@ -23,3 +23,9 @@
   --heading-s: 600 2rem/110% "Inter", sans-serif;
   --body-m: 400 1.6rem/150% "Inter", sans-serif;
 }
+
+body {
+  width: calc(100% - 4.8rem);
+  margin: 0px;
+  padding: 0px 2.4rem 9.6rem;
+}
