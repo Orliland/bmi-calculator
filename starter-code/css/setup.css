@@ -15,19 +15,24 @@
   --pure-white: hsl(0, 0%, 100%);
   --gunmetal: hsl(215, 31%, 21%);
   --dark-electric-blue: hsl(215, 17%, 45%);
+  --blue: hsl(227, 92%, 59%);
+  --blue-light: hsl(227, 100%, 67%);
 
   --bx-shadow: hsla(211, 40%, 69%, 25%);
 
   /* Fonts */
-  --heading-xl: 600 4.8rem/110% "Inter", sans-serif;
+  --heading-l: 600 4.8rem/110% "Inter", sans-serif;
   --heading-mx: 600 3.2rem/110% "Inter", sans-serif;
   --heading-m: 600 2.5rem "Inter", sans-serif;
   --heading-s: 600 2rem/110% "Inter", sans-serif;
   --body-m: 400 1.6rem/150% "Inter", sans-serif;
+  --body-m-b: 700 1.6rem/150% "Inter", sans-serif;
+  --body-s: 400 1.4rem/150% "Inter", sans-serif;
 }
 
 body {
   width: calc(100% - 4.8rem);
   margin: 0px;
   padding: 0px 2.4rem;
+  letter-spacing: -0.05em;
 }

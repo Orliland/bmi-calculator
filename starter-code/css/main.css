@@ -23,7 +23,7 @@
 .hero__title {
   margin: 0px;
 
-  font: var(--heading-xl);
+  font: var(--heading-l);
   text-align: center;
 
   color: var(--gunmetal);
@@ -36,6 +36,41 @@
   text-align: center;
 
   color: var(--dark-electric-blue);
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+
+  background: linear-gradient(90deg, var(--blue), var(--blue-light));
+}
+
+.result__title {
+  font: var(--body-m-b);
+
+  color: var(--pure-white);
+}
+
+.result__score {
+  margin: 0.8rem 0px 2.4rem;
+
+  font: var(--heading-l);
+
+  color: var(--pure-white);
+}
+
+.result__summary {
+  margin: 0px;
+
+  font: var(--body-s);
+
+  color: var(--pure-white);
+}
+
+.result__range {
+  font-weight: 700;
 }
 
 /* YOUR RESULT Section */
@@ -80,7 +115,6 @@
   margin: 3.2rem 0px 2.4rem;
 
   font: var(--heading-m);
-  letter-spacing: -5%;
 
   color: var(--gunmetal);
 }
