@@ -20,6 +20,7 @@
 
   /* Fonts */
   --heading-mx: 600 3.2rem/110% "Inter", sans-serif;
+  --heading-m: 600 2.5rem "Inter", sans-serif;
   --heading-s: 600 2rem/110% "Inter", sans-serif;
   --body-m: 400 1.6rem/150% "Inter", sans-serif;
 }
