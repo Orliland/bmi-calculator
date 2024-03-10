@@ -32,96 +32,103 @@
           <form class="form">
             <h2 class="form__title">Enter your details below</h2>
             <div class="form__check-group">
-              <label for="metric" class="check">
+              <label for="unit__metric" class="check">
                 <input
                   type="radio"
                   name="unit"
-                  id="metric"
                   class="check__input"
+                  value="metric"
+                  id="unit__metric"
                   checked
                 />
 
                 <span class="check__label">Metric</span>
               </label>
-              <label for="imperial" class="check">
+              <label for="unit__imperial" class="check">
                 <input
                   type="radio"
                   name="unit"
-                  id="imperial"
                   class="check__input"
+                  id="unit__imperial"
+                  value="imperial"
                 />
 
                 <span class="check__label">Imperial</span>
               </label>
             </div>
 
-            <div class="metric">
-              <label for="height--cm" class="form__label">Height</label>
-              <div class="field">
-                <input
-                  type="number"
-                  class="field__input"
-                  min="1"
-                  id="height--cm"
-                />
-                <span class="field__label">cm</span>
-              </div>
-            </div>
-            <div>
-              <label for="weight--kg" class="form__label">Weight</label>
-              <div class="field">
-                <input
-                  type="number"
-                  class="field__input"
-                  min="1"
-                  id="height--kg"
-                />
-                <span class="field__label">kg</span>
-              </div>
-            </div>
-            <div class="imperial">
-              <label for="height--ft" class="form__label">Height</label>
-              <div class="field--2">
+            <div id="metric" class="metric">
+              <div>
+                <label for="height--cm" class="form__label">Height</label>
                 <div class="field">
                   <input
                     type="number"
                     class="field__input"
                     min="1"
-                    id="height--ft"
+                    id="height--cm"
                   />
-                  <span class="field__label">ft</span>
+                  <span class="field__label">cm</span>
                 </div>
+              </div>
+              <div>
+                <label for="weight--kg" class="form__label">Weight</label>
                 <div class="field">
                   <input
                     type="number"
                     class="field__input"
                     min="1"
-                    id="height--in"
+                    id="height--kg"
                   />
-                  <span class="field__label">in</span>
+                  <span class="field__label">kg</span>
                 </div>
               </div>
             </div>
-            <div>
-              <label for="weight--st" class="form__label">Weight</label>
-              <div class="field--2">
-                <div class="field">
-                  <input
-                    type="number"
-                    class="field__input"
-                    min="1"
-                    id="weight--st"
-                  />
-                  <span class="field__label">st</span>
+
+            <div id="imperial" class="imperial">
+              <div>
+                <label for="height--ft" class="form__label">Height</label>
+                <div class="field--2">
+                  <div class="field">
+                    <input
+                      type="number"
+                      class="field__input"
+                      min="1"
+                      id="height--ft"
+                    />
+                    <span class="field__label">ft</span>
+                  </div>
+                  <div class="field">
+                    <input
+                      type="number"
+                      class="field__input"
+                      min="1"
+                      id="height--in"
+                    />
+                    <span class="field__label">in</span>
+                  </div>
                 </div>
-                <div class="field">
-                  <input
-                    type="number"
-                    class="field__input"
-                    min="1"
-                    id="weight--lbs"
-                  />
-                  <span class="field__label">lbs</span>
+              </div>
+              <div>
+                <label for="weight--st" class="form__label">Weight</label>
+                <div class="field--2">
+                  <div class="field">
+                    <input
+                      type="number"
+                      class="field__input"
+                      min="1"
+                      id="weight--st"
+                    />
+                    <span class="field__label">st</span>
+                  </div>
+                  <div class="field">
+                    <input
+                      type="number"
+                      class="field__input"
+                      min="1"
+                      id="weight--lbs"
+                    />
+                    <span class="field__label">lbs</span>
+                  </div>
                 </div>
               </div>
             </div>

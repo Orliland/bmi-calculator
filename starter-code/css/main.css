@@ -160,6 +160,23 @@
   gap: 1.6rem;
 }
 
+.metric,
+.imperial {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  animation: show 1.5s;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .result {
   display: flex;
   flex-direction: column;
