@@ -66,6 +66,7 @@
                     class="field__input"
                     min="1"
                     id="height--cm"
+                    placeholder="185"
                   />
                   <span class="field__label">cm</span>
                 </div>
@@ -77,7 +78,8 @@
                     type="number"
                     class="field__input"
                     min="1"
-                    id="height--kg"
+                    id="weight--kg"
+                    placeholder="80"
                   />
                   <span class="field__label">kg</span>
                 </div>
@@ -94,6 +96,7 @@
                       class="field__input"
                       min="1"
                       id="height--ft"
+                      placeholder="5"
                     />
                     <span class="field__label">ft</span>
                   </div>
@@ -103,6 +106,7 @@
                       class="field__input"
                       min="1"
                       id="height--in"
+                      placeholder="11"
                     />
                     <span class="field__label">in</span>
                   </div>
@@ -117,6 +121,7 @@
                       class="field__input"
                       min="1"
                       id="weight--st"
+                      placeholder="11"
                     />
                     <span class="field__label">st</span>
                   </div>
@@ -126,6 +131,7 @@
                       class="field__input"
                       min="1"
                       id="weight--lbs"
+                      placeholder="4"
                     />
                     <span class="field__label">lbs</span>
                   </div>
@@ -135,12 +141,13 @@
           </form>
           <div class="result">
             <span class="result__title">Your BMI is...</span>
-            <span class="result__score">23.4</span>
+            <span id="score" class="result__score">00.0</span>
             <p class="result__summary">
               Your BMI suggest you're
-              <span class="result__classification">healthy weight</span>. Your
-              ideal weight is between
-              <span class="result__range">63.3kgs - 85.2kgs</span>.
+              <span id="classification" class="result__classification"
+                ><type your data></span
+              >. Your ideal weight is between
+              <span id="range" class="result__range"><type your data></type></span>.
             </p>
           </div>
         </section>
@@ -154,7 +161,7 @@
         />
         <h2 class="summary__title">What your BMI result means</h2>
         <p class="summary__text">
-          A BMI range of 18.5 to 24.9 is considered a 'healthy weight.'
+          A BMI range of span 18.5 to 24.9 is considered a 'healthy weight.'
           Maintaining a healthy weight may lower your chances of experiencing
           health issues later on, such as obesity and type 2 diabetes. Aim for a
           nutritious diet with reduced fat and sugar content, incorporating
