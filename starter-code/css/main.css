@@ -114,6 +114,52 @@
   color: var(--gunmetal);
 }
 
+.field {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.field__input {
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  width: calc(100% - 10.8rem);
+  padding: 2rem 8.4rem 2rem 2.4rem;
+  border: 0.1rem solid var(--border);
+  border-radius: 1.2rem;
+
+  font: var(--heading-m);
+
+  color: var(--gunmetal);
+}
+
+.field__label {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: end;
+  margin-right: 2.4rem;
+
+  font: var(--heading-m);
+
+  color: var(--blue);
+}
+
+.form__label {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+
+  font: var(--body-s);
+
+  color: var(--dark-electric-blue);
+}
+
+.field--2 {
+  display: flex;
+  gap: 1.6rem;
+}
+
 .result {
   display: flex;
   flex-direction: column;

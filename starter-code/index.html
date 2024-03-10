@@ -54,6 +54,77 @@
                 <span class="check__label">Imperial</span>
               </label>
             </div>
+
+            <div class="metric">
+              <label for="height--cm" class="form__label">Height</label>
+              <div class="field">
+                <input
+                  type="number"
+                  class="field__input"
+                  min="1"
+                  id="height--cm"
+                />
+                <span class="field__label">cm</span>
+              </div>
+            </div>
+            <div>
+              <label for="weight--kg" class="form__label">Weight</label>
+              <div class="field">
+                <input
+                  type="number"
+                  class="field__input"
+                  min="1"
+                  id="height--kg"
+                />
+                <span class="field__label">kg</span>
+              </div>
+            </div>
+            <div class="imperial">
+              <label for="height--ft" class="form__label">Height</label>
+              <div class="field--2">
+                <div class="field">
+                  <input
+                    type="number"
+                    class="field__input"
+                    min="1"
+                    id="height--ft"
+                  />
+                  <span class="field__label">ft</span>
+                </div>
+                <div class="field">
+                  <input
+                    type="number"
+                    class="field__input"
+                    min="1"
+                    id="height--in"
+                  />
+                  <span class="field__label">in</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <label for="weight--st" class="form__label">Weight</label>
+              <div class="field--2">
+                <div class="field">
+                  <input
+                    type="number"
+                    class="field__input"
+                    min="1"
+                    id="weight--st"
+                  />
+                  <span class="field__label">st</span>
+                </div>
+                <div class="field">
+                  <input
+                    type="number"
+                    class="field__input"
+                    min="1"
+                    id="weight--lbs"
+                  />
+                  <span class="field__label">lbs</span>
+                </div>
+              </div>
+            </div>
           </form>
           <div class="result">
             <span class="result__title">Your BMI is...</span>
@@ -67,18 +138,7 @@
           </div>
         </section>
       </header>
-      <!-- 
-  
-    Height
-    Weight
-  
-    Your BMI is...
-  
-    add score 
-  
-    Your BMI suggests you're add classification . 
-    Your ideal weight is between add range .
-     -->
+
       <section class="summary">
         <img
           src="./assets/images/image-man-eating.webp"
@@ -206,5 +266,6 @@
         </article>
       </section>
     </main>
+    <script src="./js/main.js"></script>
   </body>
 </html>
