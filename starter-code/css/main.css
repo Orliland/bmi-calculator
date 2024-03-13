@@ -115,6 +115,7 @@
 }
 
 .field {
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -166,6 +167,11 @@
   flex-direction: column;
   gap: 1.6rem;
   animation: show 1.5s;
+}
+
+.metric > div,
+.imperial > div {
+  width: 100%;
 }
 
 @keyframes show {

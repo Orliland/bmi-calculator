@@ -19,6 +19,8 @@
   --blue-light: hsl(227, 100%, 67%);
   --blue-transparent: hsla(227, 92%, 58%, 15%);
 
+  --gradient1: hsl(216, 95%, 92%), hsla(184, 95%, 92%, 0%);
+
   --border: hsl(200, 24%, 88%);
   --bx-shadow: hsla(211, 40%, 69%, 25%);
 

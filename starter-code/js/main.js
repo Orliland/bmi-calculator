@@ -59,7 +59,7 @@ function getIdealWeight(height) {
   if (actualUnit == "metric") {
     const minWeight = (height ** 2 * 18.5).toFixed(1);
     const maxWeight = (height ** 2 * 24.9).toFixed(1);
-    idealWeight = `${rangeWeight[0]}kgs - ${rangeWeight[1]}kgs`;
+    idealWeight = `${minWeight}kgs - ${maxWeight}kgs`;
   } else if (actualUnit == "imperial") {
     const minWeight = (18.5 / 703) * height ** 2;
     const maxWeight = (24.9 / 703) * height ** 2;
@@ -70,8 +70,6 @@ function getIdealWeight(height) {
       (maxWeight - (maxWeight % 14)) / 14
     }st ${Math.trunc(maxWeight % 14)}lbs`;
     idealWeight = rangeMinWeight + " - " + rangeMaxWeight;
-    console.log(minWeight % 14);
-    console.log(maxWeight % 14);
   }
   return idealWeight;
 }

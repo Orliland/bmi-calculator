@@ -14,6 +14,8 @@
     <title>Frontend Mentor | Body Mass Index Calculator</title>
     <link rel="stylesheet" href="./css/setup.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1440px)">
   </head>
   <body>
     <main class="wrapper">
@@ -140,8 +142,11 @@
             </div>
           </form>
           <div class="result">
-            <span class="result__title">Your BMI is...</span>
-            <span id="score" class="result__score">00.0</span>
+            <div >
+              <span class="result__title">Your BMI is...</span>
+              <span id="score" class="result__score">00.0</span>
+            </div>
+            
             <p class="result__summary">
               Your BMI suggest you're
               <span id="classification" class="result__classification"
@@ -159,7 +164,8 @@
           alt=""
           class="summary__thumb"
         />
-        <h2 class="summary__title">What your BMI result means</h2>
+        <div>
+          <h2 class="summary__title">What your BMI result means</h2>
         <p class="summary__text">
           A BMI range of span 18.5 to 24.9 is considered a 'healthy weight.'
           Maintaining a healthy weight may lower your chances of experiencing
@@ -168,15 +174,20 @@
           ample fruits and vegetables. Additionally, strive for regular physical
           activity, ideally about 30 minutes daily for five days a week.
         </p>
+        </div>
+        
       </section>
       <section class="tips">
         <article class="tip">
           <img src="./assets/images/icon-eating.svg" alt="" class="tip__icon" />
-          <h2 class="tip__title">Healthy eating</h2>
+          <div>
+            <h2 class="tip__title">Healthy eating</h2>
           <p class="tip__text">
             Healthy eating promotes weight control, disease prevention, better
             digestion, immunity, mental clarity, and mood.
           </p>
+          </div>
+          
         </article>
         <article class="tip">
           <img
@@ -184,31 +195,38 @@
             alt=""
             class="tip__icon"
           />
-          <h2 class="tip__title">Regular exercise</h2>
+          <div>
+            <h2 class="tip__title">Regular exercise</h2>
           <p class="tip__text">
             Exercise improves fitness, aids weight control, elevates mood, and
             reduces disease risk, fostering wellness and longevity.
           </p>
+          </div>
+          
         </article>
         <article class="tip">
           <img src="./assets/images/icon-sleep.svg" alt="" class="tip__icon" />
-          <h2 class="tip__title">Adequate sleep</h2>
+          <div>
+            <h2 class="tip__title">Adequate sleep</h2>
           <p class="tip__text">
             Sleep enhances mental clarity, emotional stability, and physical
             wellness, promoting overall restoration and rejuvenation.
           </p>
+          </div>
+          
         </article>
       </section>
+      <div class="cards__header">
+        <h2 class="cards__title">Limitations of BMI</h2>
+        <p class="cards__description">
+          Although BMI is often a practical indicator of healthy weight, it is
+          not suited for every person. Specific groups should carefully
+          consider their BMI outcomes, and in certain cases, the measurement
+          may not be beneficial to use.
+        </p>
+      </div>
       <section class="cards">
-        <div class="cards__header">
-          <h2 class="cards__title">Limitations of BMI</h2>
-          <p class="cards__description">
-            Although BMI is often a practical indicator of healthy weight, it is
-            not suited for every person. Specific groups should carefully
-            consider their BMI outcomes, and in certain cases, the measurement
-            may not be beneficial to use.
-          </p>
-        </div>
+        
         <article class="card">
           <div class="card__header">
             <img
